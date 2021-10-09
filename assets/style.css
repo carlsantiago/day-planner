@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.lead {
+  font-family: "Roboto", sans-serif;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 10px solid #ffff;
+  margin-bottom: 10px;
+}
+
+.hour {
+  background-color: #ede2c5;
+  color: #000000;
+  border-radius: 3%;
+  border-top: 1px solid #685155;
+}
+
+.past {
+  background-color: #898989;
+  color: white;
+}
+
+.present {
+  background-color: #ffa171;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
