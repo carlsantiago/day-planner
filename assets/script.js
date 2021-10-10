@@ -39,3 +39,30 @@ $(document).ready(function(){
 
   
   currentTime()
+
+  // save to local storage
+  button.on('click', function (event) {
+    event.preventDefault();
+    var text = $(this).siblings('.col-sm-10').val();
+    var parent = $(this).parent().attr('id');
+    localStorage.setItem(parent, JSON.stringify(text));
+
+  })
+
+  $('#9 textarea').val(localStorage.getItem('9'));
+  $('#10 textarea').val(localStorage.getItem('10'));
+  $('#11 textarea').val(localStorage.getItem('11'));
+  $('#12 textarea').val(localStorage.getItem('12'));
+  $('#13 textarea').val(localStorage.getItem('13'));
+  $('#14 textarea').val(localStorage.getItem('14'));
+  $('#15 textarea').val(localStorage.getItem('15'));
+  $('#16 textarea').val(localStorage.getItem('16'));
+  $('#17 textarea').val(localStorage.getItem('17'));
+
+  // listen for save button clicks
+  button.on('click', function (event) {
+    $('selector').css('cursor', 'i')
+  })
+  
+
+
